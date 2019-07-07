@@ -7,9 +7,11 @@ Code written in MATLAB. Exercises:
 
 **Single neuron model**
 - PS4: Coding the integrate-and-fire model using the Euler method to approximate, with different currents *I*.
+
 **Neural networks**
 - PS5: Coding the activity of a ring network which (with connections) provides positive feedback to close neurons and negative ones to neurons further away. Then providing an input which also depends on orientation of each neuron. Finally test how a change in input orientation affects neuron activity with and without connections.
 - PS6 (majority of code provided): Simulating activity of neurons in a neural network with different mean and standard deviation in the firing rate. The relationship between synaptic weight and number of neurons is derived from the ideal behaviour in mean (low) and SD (high).
+
 **Learning and Memory**
 - PS7 (a): Implementation of the Bienenstock-Cooper-Munro (BCM) Learning Rule given two input patterns chosen randomly at the start of each simulation.
 - PS7 (b): Implementation of Spike-Timing Dependent Plasticity (STDP) between two neurons, where the weight change depends on time difference from the presynaptic neuron spike.
